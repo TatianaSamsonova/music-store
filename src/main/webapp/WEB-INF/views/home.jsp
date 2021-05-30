@@ -18,7 +18,7 @@
 
     <!-- For local needs -only works with fake server and doesn't work with Chrome-->
     <!--<link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
-    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 
     <meta name="theme-color" content="#7952b3">
@@ -42,7 +42,7 @@
 
 
     <!-- For local needs -only works with fake server and doesn't work with Chrome-->
-    <!--<link href="<c:url value="/resources/css/carousel.css"/>" rel="stylesheet">-->
+
     <link href="https://getbootstrap.com/docs/5.0/examples/carousel/carousel.css" rel="stylesheet">
 
 </head>
@@ -61,7 +61,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="<c:url value="/music-store/products"/>">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -90,7 +90,7 @@
 
                 <div class="container">
                     <div class="carousel-caption text-start">
-                        <h1>Example headline.</h1>
+                        <h1>Example headline</h1>
                         <p>Some representative placeholder content for the first slide of the carousel.</p>
                         <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                     </div>
@@ -173,8 +173,7 @@
 </main>
 
 <!-- For local needs -only works with fake server and doesn't work with Chrome-->
-<!--<script src="<c:url value="/resources/js/bootstrap.bundle.min.js"/>" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>-->
-<script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 
 </body>
