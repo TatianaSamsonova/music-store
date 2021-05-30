@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "products")
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
     private String name;
@@ -94,11 +94,11 @@ public class Product {
         this.unitInStock = unitInStock;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 }

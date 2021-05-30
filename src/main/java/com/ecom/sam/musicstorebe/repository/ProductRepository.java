@@ -1,7 +1,10 @@
 package com.ecom.sam.musicstorebe.repository;
 
 import com.ecom.sam.musicstorebe.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ProductRepository extends CrudRepository<Product, Long> {
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }
