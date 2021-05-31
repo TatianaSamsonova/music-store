@@ -33,4 +33,9 @@ public class ProductFacadeImpl implements ProductFacade {
     public void deleteProduct(Product product) {
         productService.deleteProduct(product);
     }
+
+    @Override
+    public void deleteProductById(long productId) {
+        productService.deleteProductById(productId);
+    }
 }
